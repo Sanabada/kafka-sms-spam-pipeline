@@ -7,6 +7,8 @@ This project streams the **UCI SMS Spam Collection** dataset through Kafka, **tr
 - **Trainer/Scorer (`trainer.py`)** consumes from `sms_raw`, performs text cleaning + HashingVectorizer, **online-trains** an SGDClassifier (`log_loss`) via `partial_fit`, emits predictions to `sms_scored`, and rolling metrics to `sms_metrics`. It also **checkpoints** the model periodically in `./models/`.
 - **Metrics Viewer (`metrics_consumer.py`)** prints streaming metrics from `sms_metrics`.
 
+<img width="1361" height="521" alt="image" src="https://github.com/user-attachments/assets/e89dcf78-0d25-4c5c-bde5-b4240a4de984" />
+
 Docker spins up: **Zookeeper, Kafka (Bitnami), Kafdrop**.
 
 ## Quickstart
