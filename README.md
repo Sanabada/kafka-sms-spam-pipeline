@@ -95,3 +95,6 @@ python scripts/metrics_consumer.py
 - The model is **online-trained**, so metrics will evolve as data arrives. Checkpoints appear under `./models/`.
 - To stop all containers: `docker compose down`.
 
+
+I have described all the functionalities and dependencies with model training in the below video which is publicly available.
+Zoom link:https://sjsu.zoom.us/clips/share/GanVmbWAS5Sgmp2KPCXpeg
