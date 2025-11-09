@@ -93,10 +93,3 @@ python scripts/metrics_consumer.py
 - The model is **online-trained**, so metrics will evolve as data arrives. Checkpoints appear under `./models/`.
 - To stop all containers: `docker compose down`.
 
-## Video Recording (what to show)
-1. Terminal A streaming producer.
-2. Terminal B training output (mini-batch metrics & checkpoints).
-3. Terminal C printing `sms_metrics`.
-4. Kafdrop UI with topic partitions & messages.
-5. Paste the **public link** to your Zoom/Panopto recording in your report.
-
