@@ -1,0 +1,5 @@
+numpy==2.0.2          # if you stayed on Py 3.9
+pandas==2.2.3
+scikit-learn==1.5.2
+kafka-python==2.0.2
+requests>=2.32,<3
