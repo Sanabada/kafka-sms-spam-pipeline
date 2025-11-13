@@ -1,6 +1,6 @@
 # Real-time SMS Spam Streaming ML with Apache Kafka (Python)
 
-This project streams the **UCI SMS Spam Collection** dataset through Kafka, **trains an online logistic regression model in real time** with `partial_fit`, and produces per-message predictions plus rolling metrics. It’s designed to satisfy a Level 3 (Advanced) pipeline with real-time ML.
+This project streams the **UCI SMS Spam Collection** dataset through Kafka, **trains an online logistic regression model in real time** with `partial_fit`, and produces per-message predictions plus rolling metrics. It’s designed to satisfy a Advanced pipeline with real-time ML.
 
 ## Architecture
 - **Producer (`producer_sms.py`)** reads labeled SMS messages and publishes JSON to `sms_raw`.
